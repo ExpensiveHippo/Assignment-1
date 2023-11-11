@@ -1,33 +1,50 @@
-I WILL REFORMAT THE README AT A LATER DATE
+# Topic: A webpage on an organization that study fictional entity or animal.
 
-#Topic: A webpage on an organization that study fictional entity or animal.
+# Features:
 
+1. Single-Scroll Page with 3 section --> "Entity of the Day"
+2. About Page
+3. Join Us *
+4. Navigation Bar
 
-#Portion:
-A. 1 Single-Scroll Page with 3 section --> "Entity of the Day"
-B. 1 About Page
-C. 1 Become a member Page *
-D. 1 Navigation Bar
+\* *Only if required because I'm not confident if I can implement the animations for the Home Page smoothly within a couple of weeks.*
 
-* Only if required because I'm not confident if I can implement the animations for the Home Page smoothly within a couple of weeks.
+# Breakdown:
 
-#Breakdown:
-##A.1. Home Page
-Details: Minimalistic with just a basic introduction on the chosen entity 
+## 1.1. Home Page
 
-##A.2. Hero image in the center with interactive buttons
-Details: On click, the content of the page will animate out of viewport to give space to lines of text that will animate in from the same direction on the other side of the viewport.
+Minimalistic with just a basic introduction on the chosen entity 
 
-##A.3. Blocks that will show the statistic on that entity 
-Details: Population, status -> endangered etc., deaths caused by it, maybe include icons
+## 1.2. Interactive Buttons
 
-##B.1. About
-Details: SVG from Figma as logo, Mission Statement 
+- About entity
+- Behaviour
+- Attack
+- Diet
 
-##C.1. Join Us
-Details: Handle User input
+*On click, the content of the page will animate out of viewport to give space to lines of text that will animate in from the same direction on the other side of the viewport.*
 
-##D.1 Navigation Bar
-Details: Home, About, Discover*, Join. 
+## 1.3. Blocks
 
-* Discover is essentially supposed to be a huge database of entities that the user can browse. When a tab is clicked on, it brings the user to a page similar to the single scroll page, with information regardig that entity instead. It will however be just another home button in my code.
+- Population
+- Status
+- Number of deaths caused per year
+
+## 2.1. About
+
+- SVG from Figma as logo
+- Mission Statement 
+
+## 3.1. Join Us
+
+- Email Address
+- Screen to display instructions after applying
+
+## 4.1 Navigation Bar
+
+- Home
+- About
+- Discover *
+- Join Us
+
+\* *Discover is essentially supposed to be a huge database of entities that the user can browse. When a tab is clicked on, it brings the user to a page similar to the single scroll page, with information regardig that entity instead. It will however be just another home button in my code.*
