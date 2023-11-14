@@ -2,7 +2,7 @@
 
 # Features:
 
-1. Single-Scroll Page with 3 section --> "Entity of the Day"
+1. Home Page
 2. About Page
 3. Join Us *
 4. Navigation Bar
@@ -11,11 +11,11 @@
 
 # Breakdown:
 
-## 1.1. Home Page
+## 1.1 Search Bar
 
-Minimalistic with just a basic introduction on the chosen entity 
+Minimalistic with just a centered search bar.
 
-## 1.2. Interactive Buttons
+## 1.2 Featured Entity
 
 - About entity
 - Behaviour
@@ -24,11 +24,15 @@ Minimalistic with just a basic introduction on the chosen entity
 
 *On click, the content of the page will animate out of viewport to give space to lines of text that will animate in from the same direction on the other side of the viewport.*
 
-## 1.3. Blocks
+## 1.3 Blocks
 
 - Population
 - Status
 - Number of deaths caused per year
+
+## 1.4 Recent Findings
+
+Blocks that link to reports/journal entries that showcase latest discoveries.
 
 ## 2.1. About
 
