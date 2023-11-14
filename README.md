@@ -4,47 +4,50 @@
 
 1. Home Page
 2. About Page
-3. Join Us *
-4. Navigation Bar
-
+3. Destination Page
+4. Description Page
+5. Navigation Bar
+6. **Product Page** *
 # Breakdown:
 
-## 1.1 Search Bar
+## 1.1 Home Page 
 
-Minimalistic with just a centered search bar.
+Uses `input` tag from week 3.
 
-## 1.2 Types of Travel
+## 1.2 Types of Travel 
 
-- Relaxation
-- Space 
-- Cultural
-- Adventure
+- Space
+- Land
+- Ocean
+- Underground
 
-## 1.3 Photo Gallery
+Animate with CSS and uses `background-size: cover` from week 4.
 
-Showcase the different places customers can potentially embark on with this company
-
-## 1.4 Blocks
+## 1.3 Blocks 
 
 - Number of Customers
 - Reviews
 - Rated X by what
 
-## 2.1. About
+Uses `display: flex` from week 3.
 
-- SVG from Figma as logo
+## 2.1 About
+- Logo
 - Mission Statement 
 
-## 3.1. Join Us
+## 3.1 Destination 
+- Search Bar
+- Search Results
 
-- User Info
-- Screen to display instructions after applying
+Uses JS.
+
+## 3.2 Destination Description 
 
 ## 4.1 Navigation Bar
 
-- Travel
-- Blogs
+- Destinations
 - About
 - Join Us
+- **Products** *
 
 
