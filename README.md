@@ -1,4 +1,4 @@
-# Topic: A webpage for a fictional travel agency
+# Topic: A webpage for an advisory agency
 
 # Features:
 
@@ -42,6 +42,7 @@ Uses `display: flex` from week 3.
 Uses JS.
 
 ## 3.2 Destination Description 
+
 
 ## 4.1 Navigation Bar
 
