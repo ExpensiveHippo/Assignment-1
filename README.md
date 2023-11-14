@@ -1,4 +1,4 @@
-# Topic: A webpage on an organization that study fictional entity or animal.
+# Topic: A webpage for a fictional travel agency
 
 # Features:
 
@@ -7,32 +7,28 @@
 3. Join Us *
 4. Navigation Bar
 
-\* *Only if required because I'm not confident if I can implement the animations for the Home Page smoothly within a couple of weeks.*
-
 # Breakdown:
 
 ## 1.1 Search Bar
 
 Minimalistic with just a centered search bar.
 
-## 1.2 Featured Entity
+## 1.2 Types of Travel
 
-- About entity
-- Behaviour
-- Attack
-- Diet
+- Relaxation
+- Space 
+- Cultural
+- Adventure
 
-*On click, the content of the page will animate out of viewport to give space to lines of text that will animate in from the same direction on the other side of the viewport.*
+## 1.3 Photo Gallery
 
-## 1.3 Blocks
+Showcase the different places customers can potentially embark on with this company
 
-- Population
-- Status
-- Number of deaths caused per year
+## 1.4 Blocks
 
-## 1.4 Recent Findings
-
-Blocks that link to reports/journal entries that showcase latest discoveries.
+- Number of Customers
+- Reviews
+- Rated X by what
 
 ## 2.1. About
 
@@ -41,14 +37,14 @@ Blocks that link to reports/journal entries that showcase latest discoveries.
 
 ## 3.1. Join Us
 
-- Email Address
+- User Info
 - Screen to display instructions after applying
 
 ## 4.1 Navigation Bar
 
-- Home
+- Travel
+- Blogs
 - About
-- Discover *
 - Join Us
 
-\* *Discover is essentially supposed to be a huge database of entities that the user can browse. When a tab is clicked on, it brings the user to a page similar to the single scroll page, with information regardig that entity instead. It will however be just another home button in my code.*
+
