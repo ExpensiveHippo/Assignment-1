@@ -1,54 +1,32 @@
-# Topic: A webpage for an advisory agency
+# Topic: A website for SAP
+
+## Description:
+ Secure, Advise, Prolong (SAP) is a fictional organisation that provides information on the most recent outbreak. 
 
 # Features:
 
-1. Home Page
-2. About Page
-3. Destination Page
-4. Description Page
-5. Navigation Bar
-6. **Product Page** *
+1. Single Scroll Page
+
 # Breakdown:
 
-## 1.1 Home Page 
+## 1.1 Blocks
 
-Uses `input` tag from week 3.
-
-## 1.2 Types of Travel 
-
-- Space
-- Land
-- Ocean
-- Underground
-
-Animate with CSS and uses `background-size: cover` from week 4.
-
-## 1.3 Blocks 
-
-- Number of Customers
-- Reviews
-- Rated X by what
+- Number of infected
+- Number of death
+- Number of recovered
 
 Uses `display: flex` from week 3.
 
-## 2.1 About
+## 1.2 Stages of Infection 
+
+Animate with JS 
+
+## 1.3 About Us
+
 - Logo
 - Mission Statement 
 
-## 3.1 Destination 
-- Search Bar
-- Search Results
-
-Uses JS.
-
-## 3.2 Destination Description 
 
 
-## 4.1 Navigation Bar
-
-- Destinations
-- About
-- Join Us
-- **Products** *
 
 
