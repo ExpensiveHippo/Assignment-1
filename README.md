@@ -1,13 +1,7 @@
-# Topic: A website for SAP
+# Topic: A single scroll website for SAP
 
-## Description:
+## Description
  Secure, Advise, Prolong (SAP) is a fictional organisation that provides information on the most recent outbreak. 
-
-# Features:
-
-1. Single Scroll Page
-
-# Breakdown:
 
 ## 1.1 Blocks
 
