@@ -11,6 +11,7 @@ body {
     font-family: Poppins, Inter, sans-serif;
     display: flex;
     flex-direction: column;
+    gap: 40vh;
     align-items: center;
     text-align: center;
     padding-left: 5%;
@@ -31,6 +32,10 @@ h1 {
 .logo {
     height: 4rem;
     margin-bottom: .5%
+}
+
+.stats {
+    margin-top: -40vh;
 }
 
 .stat-block-container {
@@ -63,3 +68,39 @@ h1 {
     position: absolute;
     top: 1rem;
 }
+
+.description-box {
+    width: 80vw;
+    height: 100vh;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, .3);
+}
+.description-picture {
+    width: 30vw;
+    float: right;
+    right: 0;
+}
+
+.description-picture img {
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+}
+
+.description-text {
+    width: 100%;  
+    text-align: left;
+    padding: 5%;
+}
+
+.description-box p {
+    font-size: 1.2rem;
+    line-height: 2.5;
+}
+
+span.key {
+    font-weight: bold;
+}
+
+
+
