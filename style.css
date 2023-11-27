@@ -54,16 +54,24 @@ h1 {
     margin-top: 7%;
 }
 
+.stat-block-container h2{
+    font-size: 2.5rem;
+}
+
+.stat-block-container h3{
+    font-size: 1.5rem;
+}
 .stat-block {
     width: 20vw;
-    min-width: 10rem;
+    min-width: 15rem;
     aspect-ratio: 1;
-    border-radius: 5%;
+    border-radius: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
+    padding: 2vw;
 }
 
 .stat-value {
@@ -72,7 +80,7 @@ h1 {
 
 .stat-name {
     position: absolute;
-    top: 1rem;
+    top: 1rem;  
 }
 
 .description-box {
@@ -113,7 +121,7 @@ span.key {
     gap: 10vw;  
     font-size: 2rem;
     font-weight: bold;
-    padding: 0 5vw;
+    justify-content: center;
 }
 .sns {
     display: flex;
@@ -127,24 +135,24 @@ span.key {
 }
 
 .stages-box h2 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .frame-container {
     display: flex;
     gap: 2vw;
-    margin-top: 10vh;
 }
 
 .frame {
     width: 15vw;
+    min-width: 9.5  rem;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
     color: inherit;
-    border-radius: 5vh;
+    border-radius: 10%;
     padding: 3vh;
     font-size: 1.5rem;
     overflow: hidden;
@@ -207,6 +215,58 @@ footer {
     align-items: center;    
     font-size: 7rem;
 }
+
+
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1222px) {
+    .stages-box h2 {
+        font-size: 3rem;
+    }
+    .frame {
+        font-size: 1.2rem;
+    }
+}
+
+/*Mobile*/
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .stat-block-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10vh;
+    }
+
+    .stat-block {
+        width: 40vw;
+    }
+
+    .stages-box h2 {
+        font-size: 2rem;
+    }
+
+    .frame {
+        font-size: 1rem;
+        width: 40vw;
+    }
+
+    .frame-container {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 10vh;
+    }
+
+    .connector {
+        font-size: 3rem;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    * {
+        display: none;
+    }
+}
+
 
 
 
