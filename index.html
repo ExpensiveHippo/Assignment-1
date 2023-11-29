@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
     <title>Home</title>
 </head>
 <body>
@@ -32,7 +33,7 @@
         </section>
         <div class="connector">Description</div>
         <section class="description">
-            <div class="description-box bright-outline page">
+            <div class="description-box bright-outline">
                 <div class="description-picture">
                     <img src="assets/virus-under-microscope.jpg" alt="FN-9315 virus strain seen under a microscope">
                 </div>
@@ -53,9 +54,9 @@
         <section class="stages">
             <div class="stages-box">
                 <div class="stages-container">
-                    <h2>STAGE 1</h2>
-                    <h2>STAGE 2</h2>
-                    <h2>STAGE 3</h2>
+                    <h2 class="stage-number active">STAGE 1</h2>
+                    <h2 class="stage-number">STAGE 2</h2>
+                    <h2 class="stage-number">STAGE 3</h2>
                 </div>    
                 <div class="sns" id="stage-one">
                     <div class="frame-container">
@@ -73,7 +74,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="sns" id="stage-two">
+                <div class="sns hidden" id="stage-two">
                     <div class="frame-container">
                         <a href="https://psychcentral.com/anxiety/scopophobia#diagnosis" class="frame bright-outline">
                             Scopophobia
@@ -89,7 +90,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="sns" id="stage-three">
+                <div class="sns hidden" id="stage-three">
                     <div class="frame-container">
                         <a href="" class="frame bright-outline">
                             Rash
@@ -110,7 +111,7 @@
         </section>
         <div class="connector">About</div>
         <section class="about">
-            <div class="about-box bright-outline page">
+            <div class="about-box bright-outline">
                 <h2>Who are we?</h2>
                 <img src="assets/Logo.svg" alt="logo" class="bright-outline">
                 <p>
