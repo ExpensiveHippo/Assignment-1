@@ -19,7 +19,9 @@ Since **statistics** are really the only thing changing every interval of time, 
 
 At this point in time, my bad creativity was starting to show. It just felt like a powerpoint slide or word document rather than a webpage. Hence, I decided to make the **Stages**  portion more interactive for the user. 
 
-In terms of wireframe, this was how I imagined the website to be like: [insert url].
+In terms of wireframe, this was how I imagined the website to be like: 
+- [Desktop](https://github.com/ExpensiveHippo/Assignment-1/blob/main/ID-Assignment1-Desktop-Wireframe.pdf)  
+- [Mobile](https://github.com/ExpensiveHippo/Assignment-1/blob/main/ID-Assignment1-Mobile-Wireframe.pdf)
 
 ## Features
 
