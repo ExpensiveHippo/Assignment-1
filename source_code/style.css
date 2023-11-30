@@ -88,6 +88,11 @@ h1 {
 
 /* Description section */
 
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .description-box {
     width: 80vw;
     height: auto;
@@ -118,8 +123,6 @@ h1 {
 span.key {
     font-weight: bold;
 }
-
-
 
 
 /* Stages section */
@@ -215,7 +218,7 @@ footer {
     justify-content: center;
     opacity: 0;
     transform: translateX(30%);
-    filter: blur(10%);
+    filter: blur(5px);
     transition: all 1s;
 }
 
@@ -227,7 +230,7 @@ footer {
     align-items: center;    
     font-size: 5rem;
     opacity: 0;
-    transition: all 2s;
+    transition: all 2.5s;
 }
 
 .active, .show {
